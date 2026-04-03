@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jiacheng Liu | Portfolio</title>
+    <meta
+      name="description"
+      content="Jiacheng Liu's portfolio featuring software engineering, distributed systems, and AI projects."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="layout">
+        <aside class="sidebar section">
+          <img
+            class="profile-photo"
+            src="./IMG_7349.jpg"
+            alt="Portrait of Jiacheng Liu"
+          />
+          <h1>
+            <span data-lang="en">Jiacheng Liu</span>
+            <span data-lang="zh">刘嘉诚</span>
+          </h1>
+          <p class="sidebar-subtitle">
+            <span data-lang="en">Software engineering and AI agent development</span>
+            <span data-lang="zh">软件工程与 AI Agent 开发</span>
+          </p>
+
+          <div class="language-toggle" aria-label="Language switcher">
+            <button class="lang-button is-active" type="button" data-target-lang="en">
+              EN
+            </button>
+            <button class="lang-button" type="button" data-target-lang="zh">
+              中文
+            </button>
+          </div>
+
+          <nav class="quick-links">
+            <a class="quick-link" href="#bio">
+              <span data-lang="en">Bio</span>
+              <span data-lang="zh">简介</span>
+            </a>
+            <a class="quick-link" href="#experience">
+              <span data-lang="en">Experience</span>
+              <span data-lang="zh">经历</span>
+            </a>
+            <a class="quick-link" href="#projects">
+              <span data-lang="en">Projects</span>
+              <span data-lang="zh">项目</span>
+            </a>
+            <a class="quick-link" href="#skills">
+              <span data-lang="en">Skills</span>
+              <span data-lang="zh">技能</span>
+            </a>
+          </nav>
+
+          <div class="contact-list">
+            <a href="https://www.linkedin.com/in/jiacheng-liu-2a5492249/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://multi-agent-qi5umjgzl-jl6960-4168s-projects.vercel.app/" target="_blank" rel="noreferrer">
+              <span data-lang="en">Featured Project</span>
+              <span data-lang="zh">重点项目</span>
+            </a>
+          </div>
+        </aside>
+
+        <main class="content-column">
+          <section class="section about" id="bio">
+          <div class="section-heading">
+            <h2>
+              <span data-lang="en">Bio</span>
+              <span data-lang="zh">简介</span>
+            </h2>
+          </div>
+          <p class="section-copy" data-lang="en">
+            My work sits at the intersection of software engineering and AI
+            agent development. I enjoy building maintainable backend systems,
+            scalable cloud services, and agent-based workflows that solve real
+            user problems in a reliable way.
+          </p>
+          <p class="section-copy" data-lang="zh">
+            我的工作主要聚焦在软件工程与 AI Agent 开发的交叉领域。我喜欢构建可维护的后端系统、可扩展的云服务，以及能够稳定解决真实用户问题的智能体工作流。
+          </p>
+
+          <div class="education-block">
+            <p class="card-label">
+              <span data-lang="en">Education</span>
+              <span data-lang="zh">教育背景</span>
+            </p>
+            <div class="education-row">
+              <div>
+                <h3>Columbia University</h3>
+                <p data-lang="en">Master of Science in Computer Science</p>
+                <p data-lang="zh">计算机科学硕士</p>
+              </div>
+              <div class="education-meta">
+                <p>New York, NY</p>
+                <p>Aug 2024 - Dec 2025</p>
+                <p>GPA: 3.83 / 4.0</p>
+              </div>
+            </div>
+
+            <div class="education-row">
+              <div>
+                <h3>University of California, San Diego</h3>
+                <p data-lang="en">B.S. in Mathematics-Computer Science, Minor in Economics</p>
+                <p data-lang="zh">数学-计算机科学本科，辅修经济学</p>
+                <p data-lang="en">Summa Cum Laude</p>
+                <p data-lang="zh">最高荣誉毕业</p>
+              </div>
+              <div class="education-meta">
+                <p>La Jolla, CA</p>
+                <p>Sept 2020 - Mar 2024</p>
+                <p>GPA: 3.99 / 4.0</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="experience">
+          <div class="section-heading">
+            <h2>
+              <span data-lang="en">Experience</span>
+              <span data-lang="zh">经历</span>
+            </h2>
+          </div>
+
+          <div class="experience-list">
+            <article class="experience-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">HSBC · Software Engineer Intern</span>
+                  <span data-lang="zh">汇丰银行 · 软件工程实习生</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Reactive orchestration, CI/CD, and production observability</span>
+                  <span data-lang="zh">响应式编排、CI/CD 与生产系统稳定性</span>
+                </h3>
+                <p data-lang="en">
+                  Built a reactive orchestration service for a loan platform
+                  using Spring WebFlux, coordinating downstream microservices
+                  through non-blocking and event-driven execution.
+                </p>
+                <p data-lang="zh">
+                  使用 Spring WebFlux 为贷款平台构建响应式编排服务，以非阻塞和事件驱动的方式协调下游微服务调用。
+                </p>
+                <p data-lang="en">
+                  Improved delivery and production reliability with Jenkins-based
+                  multi-environment CI/CD, quality gates, Docker and Nexus
+                  integration, and structured tracing through correlation IDs.
+                </p>
+                <p data-lang="zh">
+                  通过基于 Jenkins 的多环境 CI/CD、质量门禁、Docker 与 Nexus 集成，以及基于 correlation ID 的链路追踪，提升了交付效率与生产可靠性。
+                </p>
+              </div>
+              <div class="experience-meta">
+                <p>Guangdong, CN</p>
+                <p>Jul 2025 - Sept 2025</p>
+              </div>
+            </article>
+
+            <article class="experience-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">New Zhifeng · Data Engineer Intern</span>
+                  <span data-lang="zh">新智丰 · 数据工程实习生</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Forecasting, investment analysis, and decision support</span>
+                  <span data-lang="zh">预测建模、投资分析与决策支持</span>
+                </h3>
+                <p data-lang="en">
+                  Analyzed photovoltaic installation economics and developed
+                  ensemble machine learning models to forecast weather proportion
+                  and energy demand using 20 years of data.
+                </p>
+                <p data-lang="zh">
+                  分析光伏安装项目的经济性，并基于 20 年历史数据构建集成机器学习模型，用于预测天气占比和企业能源需求。
+                </p>
+                <p data-lang="en">
+                  Achieved 8% MAE in weather prediction and 5% MAE in demand
+                  forecasting, supporting an approved investment with stronger
+                  projected net profit than competing options.
+                </p>
+                <p data-lang="zh">
+                  将天气预测误差控制在 8% MAE、需求预测误差控制在 5% MAE，支撑项目投资获批，并体现出优于竞品方案的净收益预期。
+                </p>
+              </div>
+              <div class="experience-meta">
+                <p>Guangdong, CN</p>
+                <p>Apr 2024 - Jul 2024</p>
+              </div>
+            </article>
+
+            <article class="experience-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">UC San Diego Su Lab · Undergraduate Researcher</span>
+                  <span data-lang="zh">UC San Diego Su Lab · 本科科研助理</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Bridging simulation and reality for robot manipulation</span>
+                  <span data-lang="zh">缩小机器人操作中的仿真与现实差距</span>
+                </h3>
+                <p data-lang="en">
+                  Used reinforcement learning to optimize robot manipulation
+                  policies in simulation, and implemented object pose estimation
+                  with differentiable rendering and marker-based methods.
+                </p>
+                <p data-lang="zh">
+                  使用强化学习优化机器人操作策略，并结合可微渲染与基于标记点的方法实现物体位姿估计。
+                </p>
+                <p data-lang="en">
+                  Reduced sim-to-real gaps through domain randomization and a
+                  robust controller, enabling policy transfer from simulation to
+                  reality with a 100% success rate after controller integration.
+                </p>
+                <p data-lang="zh">
+                  通过 domain randomization 和鲁棒控制器缩小仿真与现实之间的差距，在引入控制器后实现了策略从仿真到现实的 100% 成功迁移。
+                </p>
+              </div>
+              <div class="experience-meta">
+                <p>La Jolla, CA</p>
+                <p>Mar 2023 - Feb 2024</p>
+              </div>
+            </article>
+
+            <article class="experience-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">UC San Diego Math Department · Instructional Assistant</span>
+                  <span data-lang="zh">UC San Diego 数学系 · 助教</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Teaching support for large STEM courses</span>
+                  <span data-lang="zh">大规模 STEM 课程教学支持</span>
+                </h3>
+                <p data-lang="en">
+                  Supported Calculus and Analytic Geometry for Science and
+                  Engineering and Introduction to Differential Equations.
+                </p>
+                <p data-lang="zh">
+                  负责支持工程数学分析、微分方程导论等大班 STEM 课程的教学工作。
+                </p>
+                <p data-lang="en">
+                  Led discussions, tutored students, and graded assessments for
+                  more than 500 students across multiple course offerings.
+                </p>
+                <p data-lang="zh">
+                  在多个学期开设课程中组织习题讨论、辅导学生并批改作业与考试，累计服务超过 500 名学生。
+                </p>
+              </div>
+              <div class="experience-meta">
+                <p>La Jolla, CA</p>
+                <p>Sept 2023 - Mar 2024</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="projects">
+          <div class="section-heading">
+            <h2>
+              <span data-lang="en">Projects</span>
+              <span data-lang="zh">项目</span>
+            </h2>
+          </div>
+
+          <div class="project-list">
+            <article class="project-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">Featured Project</span>
+                  <span data-lang="zh">重点项目</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Multilingual &amp; Multimodal Multi-Agent QA System</span>
+                  <span data-lang="zh">多语言多模态 Multi-Agent 问答系统</span>
+                </h3>
+                <p data-lang="en">
+                  Designed and built a full-stack multilingual, multimodal QA
+                  system using FastAPI, Next.js, and a layered multi-agent
+                  architecture with planner-executor-reflection workflow.
+                </p>
+                <p data-lang="zh">
+                  基于 FastAPI、Next.js 和分层多智能体架构设计并实现了一个全栈的多语言、多模态问答系统，采用 planner-executor-reflection 工作流。
+                </p>
+                <p data-lang="en">
+                  Implemented deterministic preprocessing with FastAPI and
+                  Pydantic, developed planner and executor agents with
+                  MCP-based tool integration, and built a real-time UI to
+                  visualize planner decisions, agent interactions, and
+                  execution steps across the system.
+                </p>
+                <p data-lang="zh">
+                  使用 FastAPI 与 Pydantic 构建确定性预处理流程，开发基于 MCP 工具集成的 planner 与 executor agents，并实现实时界面以可视化规划决策、agent 交互和执行过程。
+                </p>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://multi-agent-qi5umjgzl-jl6960-4168s-projects.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  >
+                  <span data-lang="en">Live Site</span>
+                  <span data-lang="zh">在线演示</span>
+                </a
+                >
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">Case Study</span>
+                  <span data-lang="zh">案例项目</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Open-Set &amp; Hierarchical Image Classification</span>
+                  <span data-lang="zh">开放集与层次化图像分类</span>
+                </h3>
+                <p data-lang="en">
+                  Built an open-set image classification pipeline using CLIP,
+                  lightweight adapters, calibrated confidence thresholds, and
+                  Stable Diffusion augmentation for unseen classes.
+                </p>
+                <p data-lang="zh">
+                  基于 CLIP、轻量适配器、置信度校准和 Stable Diffusion 数据增强，构建了适用于未见类别的开放集层次图像分类系统。
+                </p>
+              </div>
+              <div class="project-links">
+                <span data-lang="en">Details on request</span>
+                <span data-lang="zh">可按需提供详情</span>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">System Design</span>
+                  <span data-lang="zh">系统设计</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Full-Stack Campus Food Ordering Application</span>
+                  <span data-lang="zh">全栈校园点餐应用</span>
+                </h3>
+                <p data-lang="en">
+                  Developed a microservices-based ordering system with Django,
+                  Docker, AWS, MySQL, Redis, and RabbitMQ to support scalable,
+                  reliable order processing.
+                </p>
+                <p data-lang="zh">
+                  使用 Django、Docker、AWS、MySQL、Redis 和 RabbitMQ 开发了基于微服务的校园点餐系统，以支持可扩展且可靠的订单处理。
+                </p>
+              </div>
+              <div class="project-links">
+                <span data-lang="en">Details on request</span>
+                <span data-lang="zh">可按需提供详情</span>
+              </div>
+            </article>
+
+            <article class="project-row">
+              <div>
+                <p class="project-type">
+                  <span data-lang="en">Backend Service</span>
+                  <span data-lang="zh">后端服务</span>
+                </p>
+                <h3>
+                  <span data-lang="en">Appointment Management Microservice</span>
+                  <span data-lang="zh">预约管理微服务</span>
+                </h3>
+                <p data-lang="en">
+                  Developed a cloud-native appointment management microservice
+                  on GCP with Spring Boot, MyBatis, MySQL, and REST APIs for
+                  secure scheduling and client profile management.
+                </p>
+                <p data-lang="zh">
+                  基于 GCP、Spring Boot、MyBatis、MySQL 和 REST API 开发云原生预约管理微服务，用于实现安全的预约调度与客户信息管理。
+                </p>
+                <p data-lang="en">
+                  Implemented overlap detection, Redis distributed locking with
+                  `SETNX` and Lua scripting, and structured logging to improve
+                  consistency, concurrency safety, and observability.
+                </p>
+                <p data-lang="zh">
+                  通过时间冲突检测、基于 `SETNX` 与 Lua 的 Redis 分布式锁以及结构化日志机制，提升了系统一致性、并发安全性和可追踪性。
+                </p>
+              </div>
+              <div class="project-links">
+                <span data-lang="en">Details on request</span>
+                <span data-lang="zh">可按需提供详情</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section" id="skills">
+          <div class="section-heading">
+            <h2>
+              <span data-lang="en">Skills</span>
+              <span data-lang="zh">技能</span>
+            </h2>
+          </div>
+
+          <div class="skills-list">
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">Languages</span>
+                <span data-lang="zh">编程语言</span>
+              </p>
+              <p>Java, Python, SQL, JavaScript, Go</p>
+            </div>
+
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">Software Engineering</span>
+                <span data-lang="zh">软件工程</span>
+              </p>
+              <p>
+                Spring Boot, FastAPI, Flask, REST APIs, MySQL, Redis, Docker,
+                CI/CD
+              </p>
+            </div>
+
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">Cloud &amp; Production</span>
+                <span data-lang="zh">云与生产环境</span>
+              </p>
+              <p>
+                Google Cloud Platform, AWS, Service Orchestration
+              </p>
+            </div>
+
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">AI Agent Systems</span>
+                <span data-lang="zh">AI Agent 系统</span>
+              </p>
+              <p>
+                Multi-Agent Systems, MCP, RAG, Prompt Engineering
+              </p>
+            </div>
+
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">Machine Learning</span>
+                <span data-lang="zh">机器学习</span>
+              </p>
+              <p>
+                PyTorch, TensorFlow, Reinforcement Learning, XGBoost
+              </p>
+            </div>
+
+            <div class="skill-row">
+              <p class="skill-label">
+                <span data-lang="en">Frontend &amp; Mobile</span>
+                <span data-lang="zh">前端与移动端</span>
+              </p>
+              <p>Next.js, Vue, React Native, HTML, CSS</p>
+            </div>
+          </div>
+        </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
